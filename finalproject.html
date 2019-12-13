@@ -11,48 +11,36 @@
 <center><h1>Welcome To Your PC Optimizer</h1>
 <br>
 <br>
-<img height="500" width="500"src="https://www.newegg.com/insider/wp-content/uploads/2019/02/Cougar_Build-3-1024x576.jpg" name="pc" id="picture"></center>
+<img height="500" width="500"src="" id="picture"></center>
     <br>
     <br>
     <form name="Pc Build" id = "pc"></form>
         <h3>What will you use the PC for?</h3>
-        <input type="radio" name="use" value="games">Gaming<br>
-        <input type="radio" name="use" value="edit">Video/Photo Editing<br>
-        <input type="radio" name="use" value="bus">School/Work<br>
-        <br>
-        <input type="submit" name="submit" id="submit" onsubmit="changePicture1()">
-        <br>
-        <h3>What is your Price Range?</h3>
-        <input type="radio" name="price" value="budget">400-500<br>
-        <input type="radio" name="price" value="decent">600-700<br>
-        <input type="radio" name="price" value="modest">800-1000<br>
-        <input type="radio" name="price" value="great">1100-1500<br>
-        <input type="radio" name="price" value="god">1600-any<br>
+        <input type="radio" name="use" id="games">Gaming<br>
+        <input type="radio" name="use" id="edit">Video/Photo Editing<br>
+        <input type="radio" name="use" id="bad">School/Work<br>
         <br>
         <br>
         <h3>Do you want a Ryzen or Intel Processor</h3>
         <input type="radio" name="process" value="Intel">Intel<br>
         <input type="radio" name="process" value="Ryzen">Ryzen<br>
-        <input type="radio" name="process" value="cheap">I don't know what this means, just get me whatever is cheaper<br>
-        <input type="radio" name="process" value="expense">I don't know what this means, just get me whatever is best<br>
+        <input type="radio" name="process" value="idk">Click this option if you don't know what that means.<br>
         <br>
         <br>
         <h3>Do you want a Nvidia or Radeon Graphics card?</h3>
         <input type="radio" name="card" value="nvidia">Nvidia<br>
         <input type="radio" name="card" value="radeon">Radeon<br>
-        <input type="radio" name="card" value="cheaper">I don't know what this means, just get me whatever is cheaper<br>
-        <input type="radio" name="card" value="exp">I don't know what this means, just get me whatever is best<br>
+        <input type="radio" name="process" value="idk2">Click this option if you don't know what that means.<br>
+        <br>
+        <h3>What is your Price Range?</h3>
+        <input type="radio" name="price" id="budget">400-500<br>
+        <input type="radio" name="price" id="decent">600-700<br>
+        <input type="radio" name="price" value="modest">800-1000<br>
+        <input type="radio" name="price" value="great">1100-any<br>
         <br>
         <br>
-        <h3>Do you need a Mouse, Keyboard, Monitor?</h3>
-        <input type="radio" name="pre" value="all">All of them<br>
-        <input type="radio" name="pre" value="moninouse">A monitor and mouse<br>
-        <input type="radio" name="pre" value="keymouse">A keyboard and mouse<br>
-        <input type="radio" name="pre" value="monikey">A monitor and keyboard<br>
-        <br>
-        <input type="submit" value="Submit">
+        <input type="submit" name="submit" id="submit" onclick="changePicture()">
     </form>
-    <br>
     <br>
 <h3>Now that you have created your build, go to the image at the top and click the link. You will download a notepad document and have your build.</h3>
     <script src="finalproject.js"></script>
