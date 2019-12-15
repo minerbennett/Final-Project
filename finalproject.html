@@ -11,35 +11,28 @@
 <center><h1>Welcome To Your PC Optimizer</h1>
 <br>
 <br>
-<img height="500" width="500"src="" id="picture"></center>
+<img height="500" width="759"src="" id="picture"></center>
     <br>
     <br>
     <form name="Pc Build" id = "pc"></form>
         <h3>What will you use the PC for?</h3>
-        <input type="radio" name="use" id="games">Gaming<br>
-        <input type="radio" name="use" id="edit">Video/Photo Editing<br>
-        <input type="radio" name="use" id="bad">School/Work<br>
-        <br>
+        <input type="radio" name="use" id="games" onclick="changePicture()">Gaming<br>
+        <input type="radio" name="use" id="edit" onclick="changePicture()">Video/Photo Editing<br>
         <br>
         <h3>Do you want a Ryzen or Intel Processor</h3>
-        <input type="radio" name="process" value="Intel">Intel<br>
-        <input type="radio" name="process" value="Ryzen">Ryzen<br>
-        <input type="radio" name="process" value="idk">Click this option if you don't know what that means.<br>
-        <br>
+        <input type="radio" name="process" id="Intel" onclick="changePicture()">Intel<br>
+        <input type="radio" name="process" id="Ryzen" onclick="changePicture()"> Ryzen<br>
         <br>
         <h3>Do you want a Nvidia or Radeon Graphics card?</h3>
-        <input type="radio" name="card" value="nvidia">Nvidia<br>
-        <input type="radio" name="card" value="radeon">Radeon<br>
-        <input type="radio" name="process" value="idk2">Click this option if you don't know what that means.<br>
+        <input type="radio" name="card" id="nvidia" onclick="changePicture()">Nvidia<br>
+        <input type="radio" name="card" id="radeon" onclick="changePicture()">Radeon<br>
         <br>
         <h3>What is your Price Range?</h3>
-        <input type="radio" name="price" id="budget">400-500<br>
-        <input type="radio" name="price" id="decent">600-700<br>
-        <input type="radio" name="price" value="modest">800-1000<br>
-        <input type="radio" name="price" value="great">1100-any<br>
+        <input type="radio" name="price" id="budget" onclick="changePicture()">400-500<br>
+        <input type="radio" name="price" id="decent" onclick="changePicture()">600-700<br>
+        <input type="radio" name="price" id="modest" onclick="changePicture()">800-1000<br>
+        <input type="radio" name="price" id="great" onclick="changePicture()">1100-any<br>
         <br>
-        <br>
-        <input type="submit" name="submit" id="submit" onclick="changePicture()">
     </form>
     <br>
 <h3>Now that you have created your build, go to the image at the top and click the link. You will download a notepad document and have your build.</h3>
