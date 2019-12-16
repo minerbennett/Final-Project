@@ -37,6 +37,113 @@ function changePicture(){
                     document.getElementById("picture").src = "";
                 }
             }
+        }else if (document.getElementById('Ryzen').checked){
+            document.getElementById("picture").src = "";
+            if(document.getElementById('nvidia').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
+            else if(document.getElementById('radeon').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
+        }
+    }if(document.getElementById('edit').checked){
+        document.getElementById("picture").src = "";
+        
+        if(document.getElementById('Intel').checked){
+            document.getElementById("picture").src = "";
+            
+            if(document.getElementById('nvidia').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
+            else if(document.getElementById('radeon').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
+        }else if (document.getElementById('Ryzen').checked){
+            document.getElementById("picture").src = "";
+            if(document.getElementById('nvidia').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
+            else if(document.getElementById('radeon').checked){
+                document.getElementById("picture").src = "";
+                
+                if(document.getElementById('budget').checked){
+                    document.getElementById("picture").src = "";
+                }              
+                else if(document.getElementById('decent').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('modest').checked){
+                    document.getElementById("picture").src = "";
+                }
+                else if(document.getElementById('great').checked){
+                    document.getElementById("picture").src = "";
+                }
+            }
         }
     }
 }
