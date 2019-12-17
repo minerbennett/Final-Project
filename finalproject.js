@@ -148,13 +148,13 @@ function changePicture(){
     }
 function downloadFunction(){
     /*1*/if       ((document.getElementById('games').checked) || (document.getElementById('Intel').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('budget').checked)){
-        document.getElementById('download').href = "builds/1gin/1ginb.txt";
+        document.getElementById('download').href = "1ginb.txt";
     }/*2*/else if ((document.getElementById('games').checked) || (document.getElementById('Intel').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('decent').checked)){
-        document.getElementById('download').href = "builds/1gin/2gind.txt";
+        document.getElementById('download').href = "2gind.txt";
     }/*3*/else if ((document.getElementById('games').checked) || (document.getElementById('Intel').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('modest').checked)){
-        document.getElementById('download').href = "builds/1gin/3ginm.txt";
+        document.getElementById('download').href = "3ginm.txt";
     }/*4*/else if ((document.getElementById('games').checked) || (document.getElementById('Intel').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('great').checked)){
-        document.getElementById('download').href = "builds/1gin/4ging.txt";
+        document.getElementById('download').href = "4ging.txt";
     }/*5*/else if ((document.getElementById('games').checked) || (document.getElementById('Ryzen').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('budget').checked)){
         document.getElementById('download').href = "builds/2grn/5grnb.txt";
     }/*6*/else if ((document.getElementById('games').checked) || (document.getElementById('Ryzen').checked) || (document.getElementById('nvidia').checked) || (document.getElementById('decent').checked)){
