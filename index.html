@@ -11,7 +11,7 @@
 <h1>Welcome To Your PC Optimizer</h1>
 <br>
 <br>
-<a id="download" href="text.txt" download>
+<a id="download" href="" download="yourpcbuild.txt">
 <img height="500" width="759"src="" id="picture">
 </a>
     <br>
@@ -50,7 +50,7 @@
         <h3>What is your Price Range?</h3>
         <div class="radio">
         <input type="radio" name="price" id="budget" onclick="changePicture()"><br>
-        <label for="budget">400-500</label>
+        <label for="budget">400-600</label>
         <br>
         <input type="radio" name="price" id="decent" onclick="changePicture()"><br>
         <label for="decent">600-700</label>
@@ -64,8 +64,10 @@
         </div>
         <br>
     </form>
-    <p>Click this button to download your part list!</p> 
-    <button onclick="downloadFunction()">Download</button>
+    <b><p>Click this button, scroll up to the picture of the pc and click on it to download your part list!</p></b>
+    <div class="submit">
+    <button class="btn"onclick="downloadFunction()">Download</button>
+    </div>
     <br>
     <script src="finalproject.js"></script>
 </body>
