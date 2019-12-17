@@ -11,7 +11,9 @@
 <h1>Welcome To Your PC Optimizer</h1>
 <br>
 <br>
+<a id="download" href="text.txt" download>
 <img height="500" width="759"src="" id="picture">
+</a>
     <br>
     <br>
     
@@ -26,6 +28,7 @@
         </div>
         <br>
         <h3>Do you want a Ryzen or Intel Processor</h3>
+        <h5>(If you don't know what this means, pick Ryzen if you want cheaper and pick Intel if you want higher price but higher performance.)</h5>
         <div class="radio">
         <input type="radio" name="process" id="Intel" onclick="changePicture()"><br>
         <label for="Intel">Intel</label>
@@ -35,6 +38,7 @@
         </div>
         <br>
         <h3>Do you want a Nvidia or Radeon Graphics card?</h3>
+        <h5>(If you don't know what this means, pick Radeon if you want cheaper and pick Nvidia if you want higher price but higher performance.)</h5>
         <div class="radio">
         <input type="radio" name="card" id="nvidia" onclick="changePicture()"><br>
         <label for="nvidia">Nvidia</label>
@@ -60,6 +64,8 @@
         </div>
         <br>
     </form>
+    <p>Click this button to download your part list!</p> 
+    <button onclick="downloadFunction()">Download</button>
     <br>
     <script src="finalproject.js"></script>
 </body>
